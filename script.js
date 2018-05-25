@@ -9,17 +9,20 @@ function setup() {
 }
 
  /*
-  Full reference: https://p5js.org/reference/
-  How to draw a line: https://p5js.org/reference/#/p5/line
-  How to draw a rectangle: https://p5js.org/reference/#/p5/rect
-  How to draw an ellipse: https://p5js.org/reference/#/p5/ellipse
-  How to draw an arc: https://p5js.org/reference/#/p5/arc
+  full reference: https://p5js.org/reference/
+  line: https://p5js.org/reference/#/p5/line
+  rectangle: https://p5js.org/reference/#/p5/rect
+  ellipse: https://p5js.org/reference/#/p5/ellipse
+  arc: https://p5js.org/reference/#/p5/arc
+  background color: https://p5js.org/reference/#/p5/background
+  shape color: https://p5js.org/reference/#/p5/fill
+  line color, weight, etc: https://p5js.org/reference/#/p5/stroke
  */
 
 // Write all your code inside the draw() function below!
 function draw() {
   // Example. You can remove when you're ready!
-  background(0, 255, 0); // blue background (red, green, blue)
+  background(0, 255, 0); // try changing this to a blue background
   fill(255, 204, 0);    // Always call fill() before the shape you want to fill in.
   rect(30, 20, 55, 55);
 }

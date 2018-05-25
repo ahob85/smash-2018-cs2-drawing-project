@@ -5,15 +5,19 @@ function setup() {
   p5Canvas = createCanvas(800, 600);
   p5Canvas.parent("#p5-canvas");
   myName = select("#my-name");
-  myName.html("Teacher"); 
+  myName.html("Teacher");
 }
 
-/*
- Full reference: https://p5js.org/reference/
- How to draw a line: https://p5js.org/reference/#/p5/line
- How to draw a rectangle: https://p5js.org/reference/#/p5/rect
- How to draw an ellipse: https://p5js.org/reference/#/p5/ellipse
-*/
+ /*
+  full reference: https://p5js.org/reference/
+  line: https://p5js.org/reference/#/p5/line
+  rectangle: https://p5js.org/reference/#/p5/rect
+  ellipse: https://p5js.org/reference/#/p5/ellipse
+  arc: https://p5js.org/reference/#/p5/arc
+  background color: https://p5js.org/reference/#/p5/background
+  shape color: https://p5js.org/reference/#/p5/fill
+  line color, weight, etc: https://p5js.org/reference/#/p5/stroke
+ */
 
 // Write all your code inside the draw() function below!
 function draw() {
