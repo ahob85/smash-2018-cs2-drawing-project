@@ -24,5 +24,5 @@ function draw() {
   // Example. You can remove when you're ready!
   background(0, 255, 0); // try changing this to a blue background
   fill(255, 204, 0);    // Always call fill() before the shape you want to fill in.
-  rect(30, 20, 55, 55);
+  rect(30, 20, 55, 55); // Draw a 30x20 pixel rectangle at coordinate (55,55)
 }
